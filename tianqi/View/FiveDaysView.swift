@@ -15,31 +15,31 @@ struct FiveDaysView: View {
             HStack{
                 ZStack{
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.gray)
                         .cornerRadius(10)
                         .frame(width: 200, height: 150)
                 }
                 ZStack{
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.gray)
                         .cornerRadius(10)
                         .frame(width: 200, height: 150)
                 }
                 ZStack{
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.gray)
                         .cornerRadius(10)
                         .frame(width: 200, height: 150)
                 }
                 ZStack{
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.gray)
                         .cornerRadius(10)
                         .frame(width: 200, height: 150)
                 }
                 ZStack{
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.gray)
                         .cornerRadius(10)
                         .frame(width: 200, height: 150)
                 }
