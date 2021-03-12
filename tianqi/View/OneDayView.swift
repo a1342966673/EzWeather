@@ -9,6 +9,9 @@ import SwiftUI
 import SwiftUICharts
 
 struct OneDayView: View {
+    
+    @ObservedObject var cyJson = CaiyunJsonXXIV()
+    
     var body: some View {
         ZStack{
             Rectangle()
@@ -22,7 +25,7 @@ struct OneDayView: View {
                     Spacer()
                 }
                 .padding(.horizontal)
-                LineChartView(data: [90,99,78,111,70,60,77], title: "",form: ChartForm.extraLarge, dropShadow: false)
+                LineChartView(data: cyJson.highTem, title: "",form: ChartForm.extraLarge, dropShadow: false)
             }
         }
     }
